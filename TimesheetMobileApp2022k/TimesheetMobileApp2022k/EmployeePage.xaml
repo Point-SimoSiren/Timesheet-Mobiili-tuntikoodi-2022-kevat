@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimesheetMobileApp2022k.EmployeePage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Assets/Style.css" />
+    </ContentPage.Resources>
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+
+        <!-- Hakukentän seliteteksti -->
+        <Label Text="Haku"
+               FontSize="20"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <!-- Hakukenttä -->
+        <SearchBar Placeholder="Hae etu- tai sukunimellä"
+                   SearchButtonPressed="OnSearchBarButtonPressed" />
+
+        <!-- Latausilmoitus -->
+        <Label x:Name="emp_lataus" StyleClass="LatausLabel" />
+
+
+        <!-- Hlö listaus -->
+        <ListView x:Name="employeeList" SelectionMode="Single" Margin="20, 0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <ContentView Padding="3">
+                            <Frame BorderColor="Silver" Padding="3">
+
+                                <StackLayout BackgroundColor="AliceBlue" Orientation="Horizontal" Padding="0, 2">
+
+                                    <Image Source="{Binding ImageLink}"
+                                     HorizontalOptions="Start"
+                                      WidthRequest="40"
+                                      HeightRequest="40"
+                                         VerticalOptions="StartAndExpand" />
+
+                                    <Label Text="{Binding FirstName}"
+                                              HorizontalOptions="Center"
+                                               TextColor="Purple"
+                                               FontSize="22"
+                                               VerticalOptions="StartAndExpand" />
+
+
+                                    <Label Text="{Binding LastName}"
+                                        HorizontalOptions="Start"
+                                         TextColor="Purple"
+                                           FontSize="22"
+                                           VerticalOptions="StartAndExpand" />
+
+                                </StackLayout>
+                            </Frame>
+                        </ContentView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

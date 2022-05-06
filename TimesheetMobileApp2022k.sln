@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetMobileApp2022k.Android", "TimesheetMobileApp2022k\TimesheetMobileApp2022k.Android\TimesheetMobileApp2022k.Android.csproj", "{57E1283B-E3CD-42B0-BC63-0802720AC592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetMobileApp2022k", "TimesheetMobileApp2022k\TimesheetMobileApp2022k\TimesheetMobileApp2022k.csproj", "{12119C95-AE6E-4225-96DD-B28903B7A999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E1283B-E3CD-42B0-BC63-0802720AC592}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12119C95-AE6E-4225-96DD-B28903B7A999}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31DC3EB8-D8B5-462E-9C3A-5496641ACF44}
+	EndGlobalSection
+EndGlobal
